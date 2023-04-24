@@ -14,7 +14,7 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {/* <Tech /> */} {/* causing too much renders in built so commented */}
         <Works />
         <Feedbacks />
         <div className='relative z-0'>
